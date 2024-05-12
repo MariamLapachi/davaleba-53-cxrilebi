@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ჩემი საიტი</title>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 1000px;
+            height: 1000px;
+            border: 1px solid white;
+            padding: 0px;
+            margin-left: 141px;
+            margin-top: 23px;
+        }
+
+        h2 {
+            margin-top: 85px;
+            margin-left: 141px;
+            width: 152px;
+            height: 22px;
+        }
+
+       table {
+        border-collapse: collapse;
+        border: 1px solid #DADADA
+        padding: 0px;
+       }
+
+       td {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        height: 57px;
+        width: 444px;
+        text-align: center;
+       }
+
+       th:nth-child(1) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        background-color:  #F9F9F9;
+        height: 57px !important;;
+        width: 72px !important;;
+        text-align: center;
+       }
+
+       th:nth-child(2) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        background-color:  #F9F9F9;
+        height: 22px !important;;
+        width: 444px !important;;
+        text-align: justify;
+        padding: 20px;
+       }
+
+       th:nth-child(3) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        background-color:  #F9F9F9;
+        height: 57px !important;;
+        width: 276px !important;;
+        text-align: center;
+       }
+
+       th:nth-child(4) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        background-color:  #F9F9F9;
+        height: 57px !important;;
+        width: 251px !important;;
+        text-align: center;
+       }
+
+       td:nth-child(1) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        height: 57px !important;;
+        width: 72px !important;;
+        text-align: center;
+        font-weight: bold;
+       }
+
+       td:nth-child(2) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        height: 57px !important;;
+        width: 72px !important;;
+        text-align: left;
+        padding: 15px;
+        font-weight: bold;
+       }
+
+       td:nth-child(3) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        height: 57px !important;;
+        width: 72px !important;;
+        text-align: center;
+        font-weight: bold;
+       }
+
+       td:nth-child(4) {
+        border-collapse: collapse;
+        border: 1px solid #DADADA;
+        height: 57px !important;;
+        width: 72px !important;;
+        text-align: center;
+       }
+
+       button {
+        background-color: #FFD43A;
+        width: 115px;
+        height: 36px;
+        border: none;
+        font-weight: bold;
+       }
+
+       td.date-text {
+        color: red;
+       }
+
+    </style>  
+</head>
+<body>
+    <h2><b>News Table</b></h2>
+    <div class="box">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Created at</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text"   >2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr> 
+        <tr>
+            <td>3</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+            <td class="date-text">2021/12/01</td>
+            <td><button onclick="editItem(1)">Edit</button></td>
+        </tr>
+    </table>    
+    </div>
+</body>
+</html>
